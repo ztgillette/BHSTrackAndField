@@ -1,0 +1,251 @@
+/* all pages */
+
+body {
+    background-color: #d1d1d1;
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto";
+    font-size: 18px;
+}
+
+h1 {
+    background-color: #6a2e44;
+    color: #ffffff;
+    padding: 20px;
+    padding-left: 100px;
+    margin: 0;
+    font-size: 50px;
+    font-family: "Changa";
+    text-align: center;
+
+}
+
+h3 {
+    margin: 10px;
+    
+}
+
+#mainh1 {
+    background-image: url("../images/MarauderLogo.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 100px auto;
+}
+
+h2 {
+    font-family: "Changa";
+    border-top: 15px solid #10284a;
+    background-color: #6a2e44;
+    color: #ffffff;
+    font-size: 36px;
+    margin: 0;
+    padding: 10px;
+}
+
+header > ul {
+    list-style-type: none;
+    float: left;
+    clear: both;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header > ul > li {
+    float: left;
+    background-color: #10284a;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 14.2857143%;
+    text-align: center;
+}
+
+header > ul > li:hover {
+    background-color: #6479a3;
+}
+
+header > ul > li > a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+}
+
+section {
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #ffffff;
+    
+}
+
+/*home page*/
+
+.teampicture {
+    margin-top: 100px;
+    width: 80%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+
+.news > ul {
+    list-style-type: none;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.news > ul > li {
+    background-image: url("../images/runningicon.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+.seniors > ul {
+    list-style-type: none;
+    float: left;
+    clear: both;
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 0;
+    width: 100%;
+}
+
+.seniors > ul > li {
+    float: left;
+    margin: 0;
+    width: 25%;
+    color: #000000;
+    background-color: #ffffff;
+    
+}
+
+.seniors > ul > li > p {
+    margin: 0;
+    padding-top: 85px;
+    font-size: 18px;
+    
+}
+
+.portrait {
+    width: 160px;
+    height: 180px;
+    float: left;
+    padding: 10px;
+    
+}
+
+/*results page*/
+
+#results {
+    padding-left: 0px;
+}
+
+.results {
+    text-align: left;
+}
+
+/* records page */
+
+.records {
+    margin-top: 100px;
+    width: 40%;
+    margin: 6.6666667%;
+    float: left;
+    height: 800px;
+}
+
+#indoor {
+    margin-right: 0;
+}
+
+#otherevents {
+    margin-top: 0;
+    width: 86.666667%;
+    height: auto;
+}
+
+.records > ul {
+    list-style-type: none;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.records > ul > li {
+    background-image: url("../images/runningicon.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+
+/* media page */
+
+#firstpicture > img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#mediapage {
+    background-image: url("../images/MarauderLogoWhite.jpg"); 
+    background-repeat: repeat;
+    background-position: left;
+    background-color: #E8F6F8;
+}
+
+/* apparel page */
+
+#comingsoon > p {
+    font-size: 300%;
+    text-align: center;
+    margin-top: 100px;
+}
+
+#comingsoon > img {
+    width:40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* contact page */
+
+#contact > h2 {
+    margin-top: 100px;
+}
+
+#contact > p {
+    background-image: url("../images/runningicon.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    font-size: 18px;
+}
+
+#phone {
+    margin: 0;
+    width: 20%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
+
+

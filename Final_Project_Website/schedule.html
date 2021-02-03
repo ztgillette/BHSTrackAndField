@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>BHS XC-TF - Schedule</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles/site.css" />
+
+    <!-- JQuery -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.min.js" integrity="sha512-qzgd5cYSZcosqpzpn7zF2ZId8f/8CHmFKZ8j7mU4OUXTNRd5g+ZHBPsgKEwoqxCtdQvExE5LprwwPAgoicguNg==" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/js/jquery.tablesorter.widgets.min.js" integrity="sha512-dj/9K5GRIEZu+Igm9tC16XPOTz0RdPk9FGxfZxShWf65JJNU2TjbElGjuOo3EhwAJRPhJxwEJ5b+/Ouo+VqZdQ==" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.31.3/css/theme.bootstrap_4.min.css" integrity="sha512-2C6AmJKgt4B+bQc08/TwUeFKkq8CsBNlTaNcNgUmsDJSU1Fg+R6azDbho+ZzuxEkJnCjLZQMozSq3y97ZmgwjA==" crossorigin="anonymous" />
+
+    <script>
+        $(document).ready(
+            function() {
+                $('#populationtable').tablesorter({
+                    widgets: ["zebra"],
+                    theme: 'bootstrap',
+                    sortList: [
+                        [0, 0]
+                    ]
+                });
+            }
+        );
+
+    </script>
+</head>
+
+<body>
+    <header>
+
+        <h1 id="mainh1">Schedule</h1>
+
+        <!-- Navigation bar -->
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="schedule.html">Schedule</a></li>
+            <li><a href="results.html">Results</a></li>
+            <li><a href="media.html">Media</a></li>
+            <li><a href="records.html">Records</a></li>
+            <li><a href="apparel.html">Apparel</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+    </header>
+
+    <!-- table -->
+    <h3>Indoor Track 2020-2021</h3>
+    <table id="populationtable" class="tablesorter">
+        <caption>
+            Schedule for the 2020-2021 indoor track season. Note: schedule is a list of all meets scheduled, NOT a list of meets BHS will be attending.
+        </caption>
+        <thead>
+            <tr>
+                <th>Meet</th>
+                <th>Type</th>
+                <th>Organization</th>
+                <th>Date</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>MSTCA's Winterfest</td>
+                <td>Invitational</td>
+                <td>MSTCA</td>
+                <td>Saturday, Dec 12</td>
+                <td>Wheaton College</td>
+            </tr>
+            <tr>
+                <td>Distance & Speed Classics</td>
+                <td>Invitational</td>
+                <td>MSTCA</td>
+                <td>Saturday, Dec 19</td>
+                <td>Wheaton College</td>
+            </tr>
+            <tr>
+                <td>The Holiday Challenge</td>
+                <td>Invitational</td>
+                <td>MSTCA</td>
+                <td>Tuesday, Dec 29</td>
+                <td>Wheaton College</td>
+            </tr>
+            <tr>
+                <td>The Bay State Running Invitational</td>
+                <td>Invitational</td>
+                <td>MSTCA</td>
+                <td>Saturday, Jan 2</td>
+                <td>Wheaton College</td>
+            </tr>
+            <tr>
+                <td>The MSTCA</td>
+                <td>Invitational</td>
+                <td>MSTCA</td>
+                <td>Saturday, Jan 9</td>
+                <td>Wheaton College</td>
+            </tr>
+            <tr>
+                <td>The Northeast Invitational</td>
+                <td>Invitational</td>
+                <td>MSTCA</td>
+                <td>Friday, Jan 15 - Saturday, Jan 16</td>
+                <td>Wheaton College</td>
+            </tr>
+            <tr>
+                <td>The Paul Davey Meet</td>
+                <td>Invitational</td>
+                <td>MSTCA</td>
+                <td>Monday, Jan 18</td>
+                <td>Wheaton College</td>
+            </tr>
+            <tr>
+                <td>The MSTCA Coaches Invitational</td>
+                <td>Invitational</td>
+                <td>MSTCA</td>
+                <td>Friday, Jan 22 - Saturday, Jan 23</td>
+                <td>Wheaton College</td>
+            </tr>
+            <tr>
+                <td>The MSTCA Cup</td>
+                <td>Invitational</td>
+                <td>MSTCA</td>
+                <td>Friday, Jan 29 - Saturday, Jan 30</td>
+                <td>Wheaton College</td>
+            </tr>
+        </tbody>
+            
+    </table>
+
+
+</body>
+
+
+
+</html>
